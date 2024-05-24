@@ -1,4 +1,11 @@
+---
+output: github_document
+---
 ```{r}
-This is an rmarkdown
+"This is an rmarkdown"
+```
+
+```{r}
+print(1)
 ```
 

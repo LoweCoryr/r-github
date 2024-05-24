@@ -9,3 +9,14 @@ output: github_document
 print(1)
 ```
 
+```{r}
+library(ggplot2)
+library(magrittr)
+```
+
+```{r}
+mpg %>%
+  ggplot(aes(x = cyl, y = displ)) +
+  geom_point()
+```
+
